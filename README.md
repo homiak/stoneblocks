@@ -1,4 +1,4 @@
-# StoneBlocks Mod for minetest based games (most functionality works in other minetest based games like kawaii and multicraft)
+# Stoneblocks Mod for minetest based games (most functionality works in other minetest based games like kawaii and multicraft)
 
 ## Overview
 StoneBlocks adds a variety of stone-based blocks with unique properties, including light-emitting stones and decorative blocks. Some block reacts to player proximity, creating a dynamic and immersive environment.
@@ -39,7 +39,7 @@ StoneBlocks adds a variety of stone-based blocks with unique properties, includi
 - Turquoise Stone: stoneblocks:turquoise_block
 
 ## Installation
-- Standard installation via contentDB 
+- Standard installation via ContentDB 
 
 ### Manual install for single player games
 1. Download the StoneBlocks mod.
@@ -60,7 +60,7 @@ StoneBlocks adds a variety of stone-based blocks with unique properties, includi
 - `stoneblocks_stay_lit_for`: Duration (in seconds) the blocks remain lit after activation. Default is 2. Valid range 1 - 600.
 
 
-## Ores (only in minetest)
+## Ores (only in Minetest)
 
 The StoneBlocks mod introduces several unique ores into the Minetest world, enriching the mining and exploration experience. Below are the details of these ores, including their generation parameters and where they can be found:
 
