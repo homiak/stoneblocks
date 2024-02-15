@@ -1,22 +1,22 @@
-# textdomain: unifieddyes
-# Template
-Black granite stone=
-Grey granite stone=
-Rubyblock with emerald=
-Rubyblock=
-Cats eye=
-Stone with ruby=
-Stone with emerald=
-Emeraldblock with ruby=
-Granite stone=
-Red granite stone=
-Rose granite stone=
-Stone with turquoise glass=
-Emerald block=
-Mixed stone block=
-Stone with turquoise=
-Sapphire stone=
-Stone with sapphire=
-Turquoise stone=
-Red turquoise stone=
-Turquoise glass stone=
+# textdomain: stoneblocks
+
+Black granite stone=Granit noir
+Grey granite stone=Granit gris
+Rubyblock with emerald=Bloc de rubis avec émeraude
+Rubyblock=Bloc de rubis
+Cats eye=Œil de chat
+Stone with ruby=Pierre avec rubis
+Stone with emerald=Pierre avec émeraude
+Emeraldblock with ruby=Bloc d'émeraude avec rubis
+Granite stone=Pierre de granit
+Red granite stone=Granit rouge
+Rose granite stone=Granit rose
+Stone with turquoise glass=Pierre avec verre turquoise
+Emerald block=Bloc d'émeraude
+Mixed stone block=Bloc de pierre mélangé
+Stone with turquoise=Pierre avec turquoise
+Sapphire stone=Pierre de saphir
+Stone with sapphire=Pierre avec saphir
+Turquoise stone=Pierre turquoise
+Red turquoise stone=Pierre turquoise rouge
+Turquoise glass stone=Pierre en verre turquoise
