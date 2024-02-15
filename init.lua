@@ -10,6 +10,6 @@ end
 
 dofile(modpath .. "/nodes.lua")
 dofile(modpath .. "/dynamic.lua")
-dofile(modpath .. "/ore.lua")
+dofile(modpath .. "/ores.lua")
 dofile(modpath .. "/crafts.lua")
 
