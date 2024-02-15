@@ -101,7 +101,7 @@ minetest.register_node("stoneblocks:emeraldblock", {
 })
 
 minetest.register_node("stoneblocks:mixed_stone_block", {
-	description = S("Mixed stone block)",
+	description = S("Mixed stone block"),
 	tiles = { "stoneblocks_mixed_stone_block.png" },
 	sunlight_propagates = true,
 	light_source = minetest.LIGHT_MAX, 
