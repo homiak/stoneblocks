@@ -1,5 +1,6 @@
 local modpath = minetest.get_modpath("stoneblocks")
 local sound_api = dofile(modpath .. "/sound_api/init.lua")
+local S = stoneblocks.S
 
 local stoneblocks_check_player_within = tonumber(minetest.settings:get('stoneblocks_check_player_within')) or 2
 local stoneblocks_stay_lit_for = tonumber(minetest.settings:get('stoneblocks_stay_lit_for')) or 2
@@ -22,7 +23,7 @@ end
 local function register_stoneblock(name, description)
     -- Define your "unlit" block with the on_construct callback
     minetest.register_node("stoneblocks:" .. name, {
-        description = description,
+        description = S(description),
         tiles = { name .. ".png" },
         groups = { stone = 1, cracky = 2, oddly_breakable_by_hand = 1},
         sounds = sound_api.node_sound_glass_defaults(),
@@ -46,7 +47,7 @@ end
 local function register_lit_stoneblock(name, description)
     -- Define your "lit" block
     minetest.register_node("stoneblocks:" .. name .. "_lit", {
-        description = description,
+        description = S(description),
         tiles = { name .. "_lit.png" },
         light_source = minetest.LIGHT_MAX, -- Max light
         groups = { stone = 1, cracky = 2,  oddly_breakable_by_hand = 1, not_in_creative_inventory = 1 },
