@@ -1,22 +1,24 @@
 local modpath = minetest.get_modpath("stoneblocks")
 local sound_api = dofile(modpath .. "/sound_api/init.lua")
 
+local S = stoneblocks.S
+
 minetest.register_node("stoneblocks:black_granite_block", {
-	description = "Black granite stone",
+	description = S("Black granite stone"),
 	tiles = { "stoneblocks_black_granite_block.png" },
 	sounds = sound_api.node_sound_stone_defaults(),
 	groups = { stone = 1, cracky = 2,  },
 })
 
 minetest.register_node("stoneblocks:grey_granite", {
-	description = "Grey granite stone",
+	description = S("Grey granite stone"),
 	tiles = { "stoneblocks_stone_grey_granite.png" },
 	sounds = sound_api.node_sound_stone_defaults(),
 	groups = { stone = 1, cracky = 2, },
 })
 
 minetest.register_node("stoneblocks:rubyblock_with_emerald", {
-	description = "Rubyblock with emerald",
+	description = S("Rubyblock with emerald"),
 	tiles = { "stoneblocks_rubyblock_with_emerald.png" },
 	sunlight_propagates = true,
 	light_source = minetest.LIGHT_MAX, -- This node emits light
@@ -25,7 +27,7 @@ minetest.register_node("stoneblocks:rubyblock_with_emerald", {
 })
 
 minetest.register_node("stoneblocks:rubyblock", {
-	description = "Rubyblock",
+	description = S("Rubyblock"),
 	tiles = { "stoneblocks_rubyblock.png" },
 	sounds = sound_api.node_sound_stone_defaults(),
 	groups = { stone = 1, cracky = 1,  },
