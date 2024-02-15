@@ -21,3 +21,4 @@ Turquoise stone=
 Red turquoise stone=
 Turquoise glass stone=
 Sensitive Glass Block=
+Red stone lantern=
