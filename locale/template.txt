@@ -1,0 +1,4 @@
+# textdomain: stoneblocks
+
+# Template
+Black granite stone=
