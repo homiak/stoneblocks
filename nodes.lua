@@ -1,7 +1,5 @@
-local modpath = minetest.get_modpath("stoneblocks")
-local sound_api = dofile(modpath .. "/sound_api/init.lua")
-
 local S = stoneblocks.S
+local sound_api = stoneblocks.soundApi
 
 minetest.register_node("stoneblocks:black_granite_block", {
 	description = S("Black granite stone"),

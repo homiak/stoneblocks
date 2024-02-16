@@ -1,5 +1,5 @@
-local modpath = minetest.get_modpath("stoneblocks")
-local sound_api = dofile(modpath .. "/sound_api/init.lua")
+
+local sound_api = stoneblocks.soundApi
 local S = stoneblocks.S
 
 local stoneblocks_check_player_within = tonumber(minetest.settings:get('stoneblocks_check_player_within')) or 2
