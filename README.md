@@ -2,12 +2,12 @@
 
 ## Release log
 
-
 ### Release v 1.1.0
 - Add French, Dutch and Russian localizations
 - Minor tweaks
 
 ### Release v 1.0.0
+ Initial release
 
 ## Overview
 StoneBlocks adds a variety of stone-based blocks with unique properties, including light-emitting stones and decorative blocks. Some block reacts to player proximity, creating a dynamic and immersive environment.
