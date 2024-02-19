@@ -2,7 +2,7 @@
 
 ## Release log
 
-### Release v 1.1.0
+### Release v 1.1.1
 - Add French, Dutch and Russian localizations
 - Minor tweaks
 
